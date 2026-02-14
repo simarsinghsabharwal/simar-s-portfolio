@@ -11,7 +11,7 @@ const About: React.FC = () => {
           
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#121212] z-10 bg-[#1a1a1a] flex items-center justify-center shadow-2xl">
              <img 
-               src="https://ibb.co/rXQfjB5" 
+               src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1000&auto=format&fit=crop" 
                alt="Simar Singh Profile" 
                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
                style={{ objectPosition: 'center 20%' }}
@@ -48,17 +48,6 @@ const About: React.FC = () => {
           <p>
             My philosophy is simple: <span className="text-[#2DD4BF] italic">Code should be as elegant as it is functional.</span> I specialize in bridging the gap between complex backend logic and intuitive, high-impact user interfaces.
           </p>
-        </div>
-
-        <div className="mt-10 flex flex-wrap gap-4">
-          {['React', 'TypeScript', 'Node.js', 'PostgreSQL', 'Python', 'Tailwind'].map((skill) => (
-            <div 
-              key={skill} 
-              className="px-6 py-2 glass rounded-xl border border-white/5 hover:border-[#2DD4BF] hover:bg-[#2DD4BF]/5 text-[10px] font-black uppercase tracking-widest transition-all duration-300 cursor-default"
-            >
-              {skill}
-            </div>
-          ))}
         </div>
       </div>
     </div>
