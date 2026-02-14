@@ -11,7 +11,7 @@ const About: React.FC = () => {
           
           <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-[#121212] z-10 bg-[#1a1a1a] flex items-center justify-center shadow-2xl">
              <img 
-               src="WhatsApp Image 2026-02-14 at 6.13.59 PM.jpeg" 
+               src="https://ibb.co/rXQfjB5" 
                alt="Simar Singh Profile" 
                className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
                style={{ objectPosition: 'center 20%' }}
